@@ -2,7 +2,12 @@
 layout: single
 # layout: post
 title:  "잔디 심고 싶어? jekyll를 folk 하지마세요"
-categories: jekyll update
+categories: wow update
+toc : true
+author_profile: false
+# sidebar:
+#   nav:"docs"
+# search : false
 ---
 
 # post test

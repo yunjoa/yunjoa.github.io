@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "jekyll 에 utterances 댓글 추가"
-categories: jekyll update
+categories: jekyll
+tag: blog
 ---
 
 
@@ -12,3 +13,8 @@ categories: jekyll update
 
 
 
+```python
+print ('Hello, world!' )
+```
+
+rough 사용법을 알아야겠는디요
