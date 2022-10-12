@@ -15,6 +15,24 @@ author_profile: false
 ### What I did 
 
 jekyll 테마로 github blog 만들어 잔디심기
+{: .notice--success}
+이거봐 테스트야 공지
+{: .notice}
+이거봐 테스트야 공지
+{: .notice--primary}
+이거봐 테스트야 공지
+{: .notice--info}
+이거봐 테스트야 공지
+{: .notice--warning}
+이거봐 테스트야 공지
+{: .notice--danger}
+
+
+{% include video id="DZrDVcdQQwM" provider="youtube" %}
+
+quick start guide 참고하세요
+
+<https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/>
 
 
 * jekyll테마를 folk해서 만든 github blog는 commit해도 잔디가 안심어진다.
