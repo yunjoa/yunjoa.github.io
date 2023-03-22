@@ -8,7 +8,6 @@ type ProfileImageProps = {
 
 // 자신이 원하는 프로필 이미지 링크로 설정해주세요.
 
-const PROFILE_IMAGE_LINK = 'https://i.pinimg.com/564x/e4/e3/f0/e4e3f0553f70af717e952cab4535c072.jpg'
 
 
 const ProfileImageWrapper = styled(GatsbyImage)`

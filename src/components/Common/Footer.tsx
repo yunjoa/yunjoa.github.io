@@ -8,7 +8,7 @@ const FooterWrapper = styled.footer`
   padding: 50px 0;
   font-size: 15px;
   text-align: center;
-  line-height: 1.5;
+  line-height: 2.2;
 
   @media (max-width: 768px) {
     font-size: 13px;
@@ -18,8 +18,9 @@ const FooterWrapper = styled.footer`
 const Footer: FunctionComponent = function () {
   return (
     <FooterWrapper>
-      Thank You for Visiting My Blog, Have a Good Day 😆
-      <br />© 2021 Developer Hyun, Powered By Gatsby.
+      © 2023 , i am footer
+      <br />
+      🙂🙃🙂🙃
     </FooterWrapper>
   )
 }
