@@ -2,16 +2,27 @@ import React, { FunctionComponent, ReactNode } from 'react'
 import styled from '@emotion/styled'
 import GlobalStyle from 'components/Common/GlobalStyle'
 import Footer from 'components/Common/Footer'
+import { Helmet } from 'react-helmet'
+
 
 type TemplateProps = {
   children: ReactNode
 }
 
-const Container = styled.div`
+// type TemplateProps = {
+//   title: string
+//   description: string
+//   url: string
+//   image: string
+//   children: ReactNode
+// }
+
+const Container = styled.main`
   display: flex;
   flex-direction: column;
   height: 100%;
 `
+
 
 const Template: FunctionComponent<TemplateProps> = function ({
   title,
@@ -40,8 +51,8 @@ const Template: FunctionComponent<TemplateProps> = function ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-        <meta name="twitter:site" content="@yunjoa" />
-        <meta name="twitter:creator" content="@yunjoa" />
+        <meta name="twitter:site" content="@username" />
+        <meta name="twitter:creator" content="@username" />
 
         <meta
           name="google-site-verification"
@@ -62,6 +73,4 @@ const Template: FunctionComponent<TemplateProps> = function ({
   );
 };
 
-
-
-export default Template
+export default Template;
