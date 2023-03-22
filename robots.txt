@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://yunjoa.github.io/sitemap-index.xml
+Host: https://yunjoa.github.io
