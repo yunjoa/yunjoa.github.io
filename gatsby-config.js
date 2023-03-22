@@ -46,7 +46,7 @@ module.exports = {
     title: `copycode`,
     description: `@yunjoa 개발블로그입니다.`,
     author: `yunjoa`,
-    siteUrl: `https://my-website-link.com`,
+    siteUrl: `https://yunjoa.github.io/`,
   },
   plugins: [
     {
@@ -126,7 +126,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '<https://my-website.com/>',
+        siteUrl: 'https://yunjoa.github.io/',
         stripQueryString: true,
       },
     },
