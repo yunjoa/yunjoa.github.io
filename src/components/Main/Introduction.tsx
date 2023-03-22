@@ -9,7 +9,8 @@ type IntroductionProps = {
 
 const Background = styled.div`
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #ffd400 0%, #f8d374 100%);
+  // background-image: linear-gradient(60deg, #7193bd 0%, #f6e7ff 100%);
   color: #ffffff;
 `
 const Wrapper = styled.div`
@@ -56,7 +57,7 @@ const Introduction: FunctionComponent<IntroductionProps> = function ({
 
         <div>
           <SubTitle>Nice to Meet You, i'm yunjoa. </SubTitle>
-          <Title>i want to make up with code, plz forgive me. </Title>
+          <Title> 800 lines of code, 900 errors</Title>
         </div>
       </Wrapper>
     </Background>

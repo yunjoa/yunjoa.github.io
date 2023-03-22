@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://yunjoa.github.io/yunjoa/"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

@@ -1,9 +1,9 @@
 ---
 date: '2020-07-29'
 title: 'Test'
-categories: ['Web', 'SEO']
-summary: '홈페이지를 운영하는 많은 사람들 또는 기업들이 검색 페이지 최상단에 보여지게 하기 위해 어떤 최적화 작업을 하는지 알아보자.'
-thumbnail: './test.png'
+categories: ['pin']
+summary: 'pin 꼽을만한 유용한 사이트'
+thumbnail: './imgs/49c4dae4007aff38d45a9f53822e1287.jpg'
 ---
 
 ### 1. Help Google Bot to Find My Contents
@@ -25,3 +25,5 @@ Robots.txt 파일은 검색 엔진에 어떤 페이지를 크롤링해도 되는
 - SEO 기본 가이드
 
   [<https://support.google.com/webmasters/answer/7451184?hl=ko&ref_topic=9460495>](<https://support.google.com/webmasters/answer/7451184?hl=ko&ref_topic=9460495>)
+
+

@@ -38,16 +38,18 @@ const CategoryItem = styled(({ active, ...props }: GatsbyLinkProps) => (
 ))<CategoryItemProps>`
   margin-right: 4px;
   padding: 2px 10px;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 20px;
   font-weight: ${({ active }) => (active ? '800' : '400')};
+  color: ${({ active }) => (active ? '#ffd400' : 'inherit')};
   cursor: pointer;
 
   &:last-of-type {
     margin-right: 0;
   }
   &:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffd400;
+    text-decoration:underline;
   }
 
   @media (max-width: 768px) {

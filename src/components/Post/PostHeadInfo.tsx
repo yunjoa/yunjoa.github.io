@@ -33,14 +33,13 @@ const PrevPageIcon = styled.div`
   border-radius: 50%;
   background: #ffffff;
   color: #000000;
-  font-size: 22px;
+  font-size: 14px;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
   @media (max-width: 768px) {
     width: 30px;
     height: 30px;
-    font-size: 18px;
   }
 `
 
@@ -66,14 +65,13 @@ const PostData = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 400;
 
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
-    font-size: 15px;
-    font-weight: 400;
+    line-height:1.4;
   }
 `
 
