@@ -54,6 +54,7 @@ const Template: FunctionComponent<TemplateProps> = function ({
         <meta name="twitter:site" content="@yunjoa" />
         <meta name="twitter:creator" content="@yunjoa" />
 
+
         <meta
           name="google-site-verification"
           content="웹 마스터 도구가 제공하는 Meta 태그"
@@ -64,6 +65,12 @@ const Template: FunctionComponent<TemplateProps> = function ({
         />
 
         <html lang="ko" />
+        
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+
+        
       </Helmet>
 
       <GlobalStyle />

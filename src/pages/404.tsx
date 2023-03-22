@@ -12,8 +12,9 @@ const NotFoundPageWrapper = styled.div`
 `
 
 const NotFoundText = styled.div`
-  font-size: 150px;
+  font-size: 160px;
   font-weight: 800;
+  color: #ffd400;
 
   @media (max-width: 768px) {
     font-size: 100px;
@@ -21,22 +22,22 @@ const NotFoundText = styled.div`
 `
 
 const NotFoundDescription = styled.div`
-  font-size: 25px;
+  font-size: 16px;
   text-align: center;
   line-height: 1.3;
 
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 12px;
   }
 `
 
 const GoToMainButton = styled(Link)`
   margin-top: 30px;
-  font-size: 20px;
-  text-decoration: underline;
+  font-size: 16px;
 
   &:hover {
     text-decoration: underline;
+    color: #ffd400;
   }
 `
 

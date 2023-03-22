@@ -130,12 +130,25 @@ module.exports = {
         stripQueryString: true,
       },
     },
-    'gatsby-plugin-sitemap',
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `copycode`,
+        short_name: `copycode`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `static/favicon.png`, // 아이콘 파일 경로 지정
+      },
+    },
   ],
 }
+// icon: `static/favicon.ico`,
