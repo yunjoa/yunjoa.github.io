@@ -71,7 +71,7 @@ const PostData = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
-    line-height:1.4;
+    line-height:1.8;
   }
 `
 

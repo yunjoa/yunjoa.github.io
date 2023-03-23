@@ -24,6 +24,17 @@ const defaultStyle = css`
     cursor: pointer;
   }
 
+  pre{
+    font-family: inherit;
+  }
+  .callout{
+    border: 1px solid #ddd;
+    color: #555;
+    padding: 20px;
+    margin: 10px 0;
+    word-break: break-all;
+    
+  }
 
 `
 

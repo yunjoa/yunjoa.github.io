@@ -25,6 +25,7 @@ const CategoryListWrapper = styled.div`
   flex-wrap: wrap;
   width: 768px;
   margin: 100px auto 0;
+  line-height:1.6;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -43,7 +44,6 @@ const CategoryItem = styled(({ active, ...props }: GatsbyLinkProps) => (
   font-weight: ${({ active }) => (active ? '800' : '400')};
   color: ${({ active }) => (active ? '#ffd400' : 'inherit')};
   cursor: pointer;
-
   &:last-of-type {
     margin-right: 0;
   }
